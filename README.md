@@ -5,6 +5,11 @@
 
 **Capture-Fi** is a lightweight tool built with **Python** and **HTML** It is a Wi-Fi Phishing Template with a Python server that can capture Wi-Fi password through **evil twin method**
 
+## Disclaimer ⚠️
+
+```This template is intended **solely for educational purposes** and **ethical hacking**. Any misuse or illegal activities involving this template are strictly prohibited. I am not responsible for any damage or consequences caused by improper usage. Always ensure you have proper authorization before using this template on any network or system.```
+
+
 ## Features
 ```- Wi-Fi phishing using an Evil Twin method.```<br>
 ```- Customizable fake login page using HTML.```<br>
@@ -41,3 +46,4 @@
 ```The password will be captured and will be shown in terminal```
 
 <img src="https://github.com/Infosec-Ivan/Capture-Fi/blob/main/Screenshot_20240919_204327.png" alt="Screenshot" width="400"/>
+ 
