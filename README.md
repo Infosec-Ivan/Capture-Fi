@@ -31,5 +31,10 @@
 
 <img src="https://github.com/Infosec-Ivan/Capture-Fi/blob/main/IMG_20240919_204551.JPG" alt="Screenshot" width="200"/>
 
+```As victim POV he will enter the password```
 
+<img src="https://github.com/Infosec-Ivan/Capture-Fi/blob/main/IMG_20240919_204540.JPG" alt="Screenshot" width="200"/>
 
+```The password will be captured and will be shown in terminal```
+
+<img src="https://github.com/Infosec-Ivan/Capture-Fi/blob/main/Screenshot_20240919_204327.png" alt="Screenshot" width="200"/>
