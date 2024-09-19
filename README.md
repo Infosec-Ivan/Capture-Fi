@@ -1,6 +1,8 @@
 <h1 align="center">
-  <img src="https://img.shields.io/badge/Capture-Fi🛜-black?style=for-the-badge" alt="Static Badge">
+  <img src="https://img.shields.io/badge/Capture-Fi🛜-black?style=for-the-badge" alt="Static Badge" style="border-radius: 12px; width: 300px; height: 100px;">
 </h1>
+
+
 **Capture-Fi** is a lightweight tool built with **Python** and **HTML** It is a Wi-Fi Phishing Template with a Python server that can capture Wi-Fi password through **evil twin method**
 
 ## Features
