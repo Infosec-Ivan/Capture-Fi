@@ -22,10 +22,12 @@
 
 1. **Clone the Repository**:<br>
    ```git clone https://github.com/Infosec-Ivan/Capture-Fi.git```<br>
-   ```cd Capture-Fi```
-   ```python server.py```
-**Open Browser**
+   ```cd Capture-Fi```<br>
+   ```python server.py```<br>
+   
+**Open Browser**<br>
 `http://<yourIP:8080>`
+
 
    
 
