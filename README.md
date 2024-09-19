@@ -1,7 +1,6 @@
 <h1 align="center">Capture-Fi 🛜</h1>
 
-**Capture-Fi** is a lightweight tool built with **Python** and **HTML**, designed for **Wi-Fi phishing**.  
-It enables the setup of an **Evil Twin attack**, allowing you to capture Wi-Fi credentials by mimicking a legitimate access point.
+**Capture-Fi** is a lightweight tool built with **Python** and **HTML** It is a Wi-Fi Phishing Template with a Python server that can capture Wi-Fi password through evil twin method**
 
 ## Features
 ```- Wi-Fi phishing using an Evil Twin method.```<br>
@@ -21,38 +20,14 @@ It enables the setup of an **Evil Twin attack**, allowing you to capture Wi-Fi c
   
 ## Installation
 
-To set up **Capture-Fi**, follow these steps:
+1. **Clone the Repository**:<br>
+   ```git clone https://github.com/Infosec-Ivan/Capture-Fi.git```<br>
+   ```cd Capture-Fi```
+   ```python server.py```
+**Open Browser**
+`http://<yourIP:8080>`
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/Infosec-Ivan/Capture-Fi.git
-   cd Capture-Fi
-
-
-
-## Setup Process
-
-To set up your Evil Twin attack with a captive portal, follow these steps:
-
-### 1. Install Required Tool
-
-Choose one of the following tools for your setup:
-- **Airgeddon**
-- **Fluxion**
-- **WiFi Phisher**
-
-For this example, we'll use **Airgeddon**. Install it with:
-```bash
-sudo apt update
-sudo apt install airgeddon
+   
 
 
 
-**nevigate to the Capture-Fi directory and start server.py:**
-
-`python server.py`
-
-**open new terminal and start airgeddon search for captive portal conf file and add your ip and server.py port**
-`http://<your-IP:8000>`
-
-After victim connected to your fake AP the captive portal will start in index.html and when victim enter the wifi passoword the cred will shown in the terminal
