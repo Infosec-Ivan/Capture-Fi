@@ -1,6 +1,6 @@
 <h1 align="center">Capture-Fi 🛜</h1>
 
-**Capture-Fi** is a lightweight tool built with **Python** and **HTML** It is a Wi-Fi Phishing Template with a Python server that can capture Wi-Fi password through ***evil twin method**
+**Capture-Fi** is a lightweight tool built with **Python** and **HTML** It is a Wi-Fi Phishing Template with a Python server that can capture Wi-Fi password through **evil twin method**
 
 ## Features
 ```- Wi-Fi phishing using an Evil Twin method.```<br>
@@ -29,7 +29,7 @@
 **Open Browser**<br>
 `http://<yourIP:8080>`
 
-<img src="https://github.com/Infosec-Ivan/Capture-Fi/blob/main/IMG_20240919_204551.JPG" alt="Screenshot" width="400"/>
+<img src="https://github.com/Infosec-Ivan/Capture-Fi/blob/main/IMG_20240919_204551.JPG" alt="Screenshot" width="200"/>
 
 
 
