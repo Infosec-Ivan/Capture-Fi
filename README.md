@@ -29,8 +29,7 @@
 **Open Browser**<br>
 `http://<yourIP:8080>`
 
-
-   
+<img src="https://github.com/Infosec-Ivan/Capture-Fi/blob/main/IMG_20240919_204551.JPG" alt="Screenshot" width="400"/>
 
 
 
