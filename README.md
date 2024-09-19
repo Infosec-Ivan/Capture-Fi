@@ -29,12 +29,12 @@
 **Open Browser**<br>
 `http://<yourIP:8080>`
 
-<img src="https://github.com/Infosec-Ivan/Capture-Fi/blob/main/IMG_20240919_204551.JPG" alt="Screenshot" width="200"/>
+<img src="https://github.com/Infosec-Ivan/Capture-Fi/blob/main/IMG_20240919_204551.JPG" alt="Screenshot" width="100"/>
 
 ```As victim POV he will enter the password```
 
-<img src="https://github.com/Infosec-Ivan/Capture-Fi/blob/main/IMG_20240919_204540.JPG" alt="Screenshot" width="200"/>
+<img src="https://github.com/Infosec-Ivan/Capture-Fi/blob/main/IMG_20240919_204540.JPG" alt="Screenshot" width="100"/>
 
 ```The password will be captured and will be shown in terminal```
 
-<img src="https://github.com/Infosec-Ivan/Capture-Fi/blob/main/Screenshot_20240919_204327.png" alt="Screenshot" width="200"/>
+<img src="https://github.com/Infosec-Ivan/Capture-Fi/blob/main/Screenshot_20240919_204327.png" alt="Screenshot" width="400"/>
